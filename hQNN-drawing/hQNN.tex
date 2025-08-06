@@ -1,3 +1,21 @@
+\documentclass[tikz, border = 0.01 cm]{standalone}
+% Math font
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{physics}
+
+% TikZ and page libraries
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage{pdfpages}
+
+\usetikzlibrary{calc, patterns, angles, quotes, decorations.markings, decorations.pathreplacing, calligraphy}
+
+\begin{document}
+
 \begin{tikzpicture}[scale = 0.59]
     \filldraw[fill = gray!50] (+0.000, -1.750) rectangle (+1.500, +1.750);
     %
@@ -80,3 +98,5 @@
     %
     \draw[thick, stealth'-] (+13.500 + 2.000, -3.000) -- (+16.500 + 2.000, -0.750);
 \end{tikzpicture}
+
+\end{document}
