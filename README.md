@@ -61,6 +61,9 @@ For this project, we used the following datasets:
 - [**MSL**](https://www.kaggle.com/datasets/patrickfleith/nasa-anomaly-detection-dataset-smap-msl): Mars Science Laboratory images;
 - [**ImageNet**](https://www.image-net.org/update-mar-11-2021.php): Large-scale image dataset.
 
+> [!NOTE]
+> Some datasets are downloaded automatically, while others require manual installation. You can access each dataset in the link provided. We suggest creating a folder called 'Datasets' to store all the training data. 
+
 ## System Requirements
 
 - **Memory**: 8GB+ RAM recommended.
