@@ -1,6 +1,6 @@
 # Toy hybrid Quantum Neural Network (hQNN) for image classification tasks
 
-In this repository, we show the code used to model a hybrid quantum neural network (hQNN) for image classification tasks. We employed a simple, parametrized quantum circuit (PQC) with $L$ quantum layers and a final classical linear layer. 
+The code shown here can be used to model a hybrid quantum neural network (hQNN) for image classification tasks. We employed a simple, parametrized quantum circuit (PQC) consisting of rotation and entangling gates with $L$ quantum layers and a final classical linear layer. 
 
 We took inspiration from the following GitHub repository to build the PQC: [Image_classification_with_CNN_and_QNN](https://github.com/ArunSehrawat/Image_classification_with_CNN_and_QNN).
 
@@ -69,6 +69,11 @@ For this project, we used the following datasets:
 - **Memory**: 8GB+ RAM recommended.
 - **Storage**: Variable by dataset (170MB for CIFAR, several GB for ImageNet).
 - **GPU**: Optional CUDA-compatible GPU for faster training.
+
+## References
+- Karkera, P., R, S. (2024). Optimization Techniques of Quantum Neural Network for Image Classification. In: Abraham, A., Bajaj, A., Hanne, T., Hong, TP. (eds) Intelligent Systems Design and Applications. ISDA 2023. Lecture Notes in Networks and Systems, vol 1047. Springer, Cham. [https://doi.org/10.1007/978-3-031-64836-6_41](https://doi.org/10.1007/978-3-031-64836-6_41).
+- Benedetti, M., Lloyd, E., Sack, S., Fiorentini, M. (2019). Parametrized quantum circuits as machine learning models. Quantum Science and Technology, 4(4), 043001. [https://doi.org/10.1088/2058-9565/ab4eb5](https://doi.org/10.1088/2058-9565/ab4eb5)
+- Mitarai, K., Negoro, M., Kitagawa, M., Fujii, K. (2018). Quantum circuit learning. Physical Review A, 98(3), 032309. [https://doi.org/10.1103/PhysRevA.98.032309](https://doi.org/10.1103/PhysRevA.98.032309).
 
 > [!IMPORTANT]
 > To replicate the results of this code, use Python 3.10 or more recent versions (we tested with Python 3.12.0).
