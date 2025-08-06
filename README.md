@@ -4,10 +4,6 @@ In this repository, we show the code used to model a hybrid quantum neural netwo
 
 ## Requirements
 
-### Python version
-
-To replicate the results of this code, use Python 3.10 or more recent versions (we tested with Python 3.12.0).
-
 ### Dependencies
 - torch>=1.13.0
 - torchvision>=0.14.0
@@ -58,9 +54,9 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
 ## Supported Datasets
 
 For this project, we used the following datasets:
-- [**MNIST**](https://www.kaggle.com/datasets/hojjatk/mnist-dataset)): Handwritten digits (28x28 grayscale);
-- [**CIFAR-10 and CIFAR-100**]((https://www.cs.toronto.edu/~kriz/cifar.html)): Natural images, 10 and 100 classes (32x32 RGB), respectively;
-- [**MSL**]((https://www.kaggle.com/datasets/patrickfleith/nasa-anomaly-detection-dataset-smap-msl)): Mars Science Laboratory images;
+- [**MNIST**](https://www.kaggle.com/datasets/hojjatk/mnist-dataset): Handwritten digits (28x28 grayscale);
+- [**CIFAR-10 and CIFAR-100**](https://www.cs.toronto.edu/~kriz/cifar.html): Natural images, 10 and 100 classes (32x32 RGB), respectively;
+- [**MSL**](https://www.kaggle.com/datasets/patrickfleith/nasa-anomaly-detection-dataset-smap-msl): Mars Science Laboratory images;
 - [**ImageNet**](https://www.image-net.org/update-mar-11-2021.php): Large-scale image dataset.
 
 ## System Requirements
@@ -68,3 +64,6 @@ For this project, we used the following datasets:
 - **Memory**: 8GB+ RAM recommended.
 - **Storage**: Variable by dataset (170MB for CIFAR, several GB for ImageNet).
 - **GPU**: Optional CUDA-compatible GPU for faster training.
+
+> [!IMPORTANT]
+> To replicate the results of this code, use Python 3.10 or more recent versions (we tested with Python 3.12.0).
