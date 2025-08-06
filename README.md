@@ -1,6 +1,8 @@
 # Toy hybrid Quantum Neural Network (hQNN) for image classification tasks
 
-In this repository, we show the code used to model a hybrid quantum neural network (hQNN) for image classification tasks. We employed a simple, parametrized quantum circuit (PQC) with $L$ quantum layers and a final classical linear layer. We took inspiration from the following GitHub repository: [Image_classification_with_CNN_and_QNN](https://github.com/ArunSehrawat/Image_classification_with_CNN_and_QNN)
+In this repository, we show the code used to model a hybrid quantum neural network (hQNN) for image classification tasks. We employed a simple, parametrized quantum circuit (PQC) with $L$ quantum layers and a final classical linear layer. 
+
+We took inspiration from the following GitHub repository to build the PQC: [Image_classification_with_CNN_and_QNN](https://github.com/ArunSehrawat/Image_classification_with_CNN_and_QNN).
 
 ## Requirements
 
